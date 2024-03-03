@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faPhone, faHome, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const StyledDiv = styled.div`
-  font-family: Arial, sans-serif;
+  font-family: Apple Chancery, cursive;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,7 +16,7 @@ const BookingForm = () => {
   return (
     <StyledDiv>
       <header>
-        <h1>LoLa Cabs</h1>
+        <h1>Travelloo - Cabs</h1>
       </header>
       <div className="container">
         <p>Fill Out This Form To Book Your Trip</p>
