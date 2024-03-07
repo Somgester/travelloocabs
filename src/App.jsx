@@ -1,11 +1,13 @@
-import Navbar from './components/navbar';
-import BookingForm from './components/bookingForm';
+// import Navbar from './components/navbar';
+// import BookingForm from './components/bookingForm';
+import LoginPage from './components/loginPage';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-    <BookingForm />
+      {/* <Navbar />
+    <BookingForm /> */}
+    <LoginPage />
     </div>
   );
 }
