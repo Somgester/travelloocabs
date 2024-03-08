@@ -5,11 +5,11 @@ import BookingForm from './components/bookingForm';
 function App() {
   return (
     <div className="App">
+      <Navbar/>
       {/* <Navbar />
     <BookingForm /> */}
     {/* <LoginPage /> */}
     <BookingForm />
-    <Navbar/>
     </div>
   );
 }
