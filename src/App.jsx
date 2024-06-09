@@ -1,5 +1,6 @@
 import Navbar from './components/navbar';
 import BookingForm from './components/bookingForm';
+import Header from './components/header';
 // import LoginPage from './components/loginPage';
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
       {/* <Navbar />
     <BookingForm /> */}
     {/* <LoginPage /> */}
-    <BookingForm />
+    <Header/>
+    {/* <BookingForm /> */}
     </div>
   );
 }
