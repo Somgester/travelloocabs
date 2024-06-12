@@ -32,12 +32,12 @@ const Navbar = () => {
 
       <div>
       {/* <FaBars /> */}
-      <h1 className='font-medium text-xl md:text-2xl font-serif'>Travelloo - Cabs</h1>
+      <h1 className='font-medium text-xl md:text-2xl font-appleui'>Travelloo - Cabs</h1>
       </div>
       <div className='max-md:hidden'>
       <div className="flex gap-5 ">
       {NavLinks.map((link) => (
-                  <a href={link.link} key={link.title} className='text-black text-xl font-serif z-50 block px-3 py-2 rounded-md  font-medium'>{link.title}</a>
+                  <a href={link.link} key={link.title} className='text-black text-xl font-appleui z-50 block px-3 py-2 rounded-md  font-medium'>{link.title}</a>
                   ))}
       </div>
       </div>
@@ -52,7 +52,7 @@ const Navbar = () => {
                 <div className='md:hidden z-50 fixed'>
                 <div className='ox-2 pt-2 pb-3 space-y-1'>
                 {NavLinks.map((link) => (
-                  <a href={link.link} key={link.title} className='text-black text-md font-serif z-50 block  py-2 rounded-md  font-medium'>{link.title}</a>
+                  <a href={link.link} key={link.title} className='text-black text-md font-appleui z-50 block  py-2 rounded-md  font-medium'>{link.title}</a>
                   ))}
                   
 
