@@ -11,12 +11,13 @@ const NavLinks = [
   {title: "Gallery",
   link: "/gallery"
 },
-  {title: "Events",
-  link: "/events"
-},
   {title: "Contact",
   link: "/contact"
 }, 
+
+{title: "Login",
+  link: "/login"
+},
 
 
 ]
